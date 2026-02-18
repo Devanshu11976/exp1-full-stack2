@@ -61,8 +61,8 @@ A simple React application built using Vite that demonstrates:
 
 ## 👨‍💻 Author
 
-**Manjot Singh**  
-UID: 23BAI70633  
+**Devanshu Sharma**  
+UID: 23BAI70183  
 
 ---
 
