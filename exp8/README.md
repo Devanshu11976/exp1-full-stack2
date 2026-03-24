@@ -95,16 +95,16 @@ Base URL: `http://localhost:8080/api/students`
 
 ## 📸 Screenshots
 ### DELETE – Update Student
-![PUT](screenshots/Delete.png)
+![DELETE](Screenshots/Delete.png)
 
 ### GET All Students
-![GET All](screenshots/Get.png)
+![GET All](Screenshots/Get.png)
 
 ### POST – Add Student
-![POST](screenshots/Post.png)
+![POST](Screenshots/Post.png)
 
 ### PUT – Update Student
-![PUT](screenshots/Put.png)
+![PUT](Screenshots/Put.png)
 
 
 ---
