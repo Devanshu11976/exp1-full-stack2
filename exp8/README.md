@@ -76,8 +76,7 @@ Base URL: `http://localhost:8080/api/students`
 | ![GET](https://img.shields.io/badge/GET-61affe?style=flat-square) | `/api/students/{id}` | Fetch student by ID |
 | ![POST](https://img.shields.io/badge/POST-49cc90?style=flat-square) | `/api/students` | Add new student |
 | ![PUT](https://img.shields.io/badge/PUT-fca130?style=flat-square) | `/api/students/{id}` | Update student |
-| ![DELETE]([https://img.shields.io/badge/DELETE-f93e3e?style=flat-square](https://github.com/Devanshu11976/exp1-full-stack2/blob/8734f1c709f914fd6a8de06f06f26ff85a361b3e/exp8/Screenshorts/Delete.png)) | `/api/students/{id}` | Delete student |
-
+| ![DELETE](https://img.shields.io/badge/DELETE-f93e3e?style=flat-square) | `/api/students/{id}` | Delete student |
 ---
 
 ## 📦 Sample Request Body
@@ -94,17 +93,18 @@ Base URL: `http://localhost:8080/api/students`
 ---
 
 ## 📸 Screenshots
-### DELETE – Update Student
-![DELETE](Screenshots/Delete.png)
 
-### GET All Students
-![GET All](Screenshots/Get.png)
+### ➕ POST – Add Student
+![POST](Screenshorts/Post.png)
 
-### POST – Add Student
-![POST](Screenshots/Post.png)
+### 📋 GET – All Students
+![GET](Screenshorts/Get.png)
 
-### PUT – Update Student
-![PUT](Screenshots/Put.png)
+### ✏️ PUT – Update Student
+![PUT](Screenshorts/Put.png)
+
+### 🗑️ DELETE – Delete Student
+![DELETE](Screenshorts/Delete.png)
 
 
 ---
