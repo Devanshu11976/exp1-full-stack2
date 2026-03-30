@@ -159,15 +159,17 @@ Hello! JWT Authentication Successful
 
 ### 🔑 Token Generated — `POST /api/login`
 
-![JWT Token Generated](screenshots/Screenshot_2026-03-30_105550.png)
+
 
 > **200 OK** &nbsp;•&nbsp; JWT token returned in `503ms` &nbsp;•&nbsp; `466 B`
 
----
+<img width="1439" height="731" alt="post" src="https://github.com/user-attachments/assets/59434e8f-7d29-49fa-92a4-0952bca2733d" />
 
+---
 ### ✅ Protected Route Access — `GET /api/hello`
 
-![JWT Authentication Successful](screenshots/Screenshot_2026-03-30_105520.png)
+<img width="1441" height="730" alt="get" src="https://github.com/user-attachments/assets/5f9113c6-e749-43b3-ba43-094c5790db72" />
+
 
 > **200 OK** &nbsp;•&nbsp; `Hello! JWT Authentication Successful` &nbsp;•&nbsp; `221ms`
 
@@ -218,8 +220,6 @@ spring.datasource.password=
 
 **Devanshu Sharma**
 
-[![GitHub](https://img.shields.io/badge/GitHub-your--username-181717?style=for-the-badge&logo=github)](https://github.com/your-username)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
 
 *Built with ❤️ using Spring Boot & JWT*
 
