@@ -138,8 +138,11 @@ Client (React)
 
 ## 📸 Screenshots
 
-👉 Add your screenshots here
-(You can paste images after pushing repo)
+<img width="1146" height="772" alt="Screenshot 2026-04-20 154513" src="https://github.com/user-attachments/assets/f3e8c613-f4a0-4d2f-99ce-c46d39b015e9" />
+
+---
+<img width="1905" height="1032" alt="image" src="https://github.com/user-attachments/assets/5fada0f0-4dd7-48f7-9310-fb28ef6af80e" />
+
 
 ---
 
