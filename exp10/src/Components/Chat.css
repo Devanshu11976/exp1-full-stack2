@@ -1,0 +1,128 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.chat-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* CHAT BOX */
+.chat-box {
+  width: 95%;
+  max-width: 900px;
+  height: 95%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(20px);
+}
+
+/* MESSAGES */
+.messages {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* MESSAGE */
+.message {
+  margin-bottom: 15px;
+  padding: 12px 16px;
+  border-radius: 15px;
+  max-width: 60%;
+  color: white;
+}
+
+.message.own {
+  margin-left: auto;
+  background: linear-gradient(135deg, #00c6ff, #0072ff);
+}
+
+.message.other {
+  margin-right: auto;
+  background: rgba(255,255,255,0.2);
+}
+
+.sender {
+  font-size: 11px;
+  opacity: 0.7;
+  margin-bottom: 5px;
+  display: block;
+}
+
+/* INPUT */
+.input-area {
+  display: flex;
+  padding: 15px;
+  background: rgba(0,0,0,0.3);
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.input-area button {
+  margin-left: 10px;
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #00c6ff;
+  color: white;
+  cursor: pointer;
+}
+
+/* USERNAME POPUP */
+.username-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.username-box h2 {
+  margin: 0;
+  color: #333;
+}
+
+.username-box input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.username-box button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #0072ff;
+  color: white;
+  cursor: pointer;
+}
